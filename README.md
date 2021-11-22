@@ -34,3 +34,13 @@ Version 0.3:
 - added more comments
 
 NOTE: PYTESSERACT LIBRARY is now a must install, with a manual location override at the beginning of the file to specify the path.
+
+Version 0.4:
+- added digit recognition section with digit extraction as string/int 
+- added digit extracted to uno card identification text placement
+- modified center cropping coordinates
+- changed morphology values used for a better result
+- added contour extraction for the image used on digit recognition in order to calculate perimeter/area+vertices and detect reverse, skip, +4,+2 cards
+- added extra comments
+
+NOTE: There is currently a problem where if the image is flipped horizontaly, the digit will NOT be recognized. Working on a solution!
