@@ -24,3 +24,13 @@ Version 0.2 :
 - modified text displacement values to better fit any cropped image
 - added a lot of extra comments explaining every process
 - added section separation text for a "chapter" view of the code
+
+Version 0.3:
+- fixed a bug related to image rotation (some images would get flipped not rotated)
+- fixed a bug with the colour recognition section (some images would be recognized as cyan/navy rather than blue = reduced "accuracy")
+- fixed a bug where the wrong images were loaded for post-processing because of the same address in memory
+- researched pattern recognition and added comments to the document
+- added pytesseract in tandem with OpenCV morphology+binarisation for digit recognition
+- added more comments
+
+NOTE: PYTESSERACT LIBRARY is now a must install, with a manual location override at the beginning of the file to specify the path.
