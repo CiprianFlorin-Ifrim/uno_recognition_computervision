@@ -27,7 +27,7 @@ Version 0.2 :
 
 Version 0.3:
 - fixed a bug related to image rotation (some images would get flipped not rotated)
-- fixed a bug with the colour recognition section (some images would be recognized as cyan/navy rather than blue = reduced "accuracy")
+- fixed a bug with the colour recognition section (some images would be recognized as cyan/navy rather than blue, to fix it I reduced the "accuracy", lighter-darker blue = blue)
 - fixed a bug where the wrong images were loaded for post-processing because of the same address in memory
 - researched pattern recognition and added comments to the document
 - added pytesseract in tandem with OpenCV morphology+binarisation for digit recognition
