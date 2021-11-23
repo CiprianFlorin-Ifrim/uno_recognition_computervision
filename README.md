@@ -43,4 +43,14 @@ Version 0.4:
 - added contour extraction for the image used on digit recognition in order to calculate perimeter/area+vertices and detect reverse, skip, +4,+2 cards
 - added extra comments
 
-NOTE: There is currently a problem where if the image is flipped horizontaly, the digit will NOT be recognized. Working on a solution!
+NOTE: There is currently a problem where if the image is flipped horizontaly or vertically, the digit will NOT be recognized. Working on a solution!
+
+Version 0.5:
+- fixed the problem where the digit was not recognized if the image was flipped:
+	- now the software is "aware" on the orientation of the image and it flips it vertically, horizontaly or both in order to align it to the user origin
+		- the flip happens for both the digit extraction image, as well as the user final image for ease of use
+- fixed some variable mistakes
+- added extra comments
+- moved the digit recognition with pytesseract code into a definition which can get recall as needed throughout the code
+
+NOTE: There is currently an error with the center cropping needed for shape identification with certain images! WIP!
