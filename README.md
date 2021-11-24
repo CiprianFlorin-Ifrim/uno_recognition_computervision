@@ -3,6 +3,17 @@ Computer vision software able to identify UNO cards in images and camera streams
 
 CHANGELOG:
 
+Version 0.7 24/11/2021):
+- added skip, reverse, +2 cards identification
+- better contour center point recognition
+	- fixed the center crop issue from versions 0.6 downwards
+- added different methods of achieving certain tasks (will be of use later when creating a menu/user interface
+- changed/added comments
+- added more sections/better code formatting
+- WIP +4 card identification (not part of the original image folder)
+
+NOTE: Some bugs with the skip/reverse/+2 if the cards are flipped from the beginning. Working on a fix!
+
 Version 0.6 23/11/2021):
 - changed some comments
 - added extra comments
