@@ -1,6 +1,7 @@
 # uno_recognition_computervision
 Computer vision software able to identify UNO cards in images or folders and in real time from camera streams.
 Available on GitHub at: https://github.com/CiprianFlorin-Ifrim/uno_recognition_computervision.git
+
 Development Time: 110 Hours
 
 The main code "UNO_computer_vision_MAIN" is able to:
@@ -37,11 +38,10 @@ The software is divided into 3 sections:
 	- Camera file to be used in tandem with the saved classifier (Pickle) to be used as standalone
 
 LIBRARIES USED: OS, TIME, MATH, OPERATOR, CSV, GLOV, CV2, PICKLE, NUMPY, PANDAS, MATPLOTLIB, TKINTER, PILLOW, SCIPY, SKLEARN, WEBCOLOURS
-They should all be available with Anaconda Spyder with the exeption of WEBCOLOURS: conda install -c conda-forge webcolors
-                                                                  and PYTESSERACT: conda install -c conda-forge pytesseract or pip install pytesseract 
-																                   combined with https://github.com/UB-Mannheim/tesseract/wiki
-																  NOTE: Specify in the Pytesseract notebook where Pytesseract has been installed:
-																        example: pytesseract.pytesseract.tesseract_cmd = 'G:/Program Files/Tesseract-OCR/tesseract.exe'
+They should all be available with Anaconda Spyder with the exeption of:
+		- WEBCOLOURS: conda install -c conda-forge webcolors
+        - PYTESSERACT: conda install -c conda-forge pytesseract or pip install pytesseract combined with https://github.com/UB-Mannheim/tesseract/wiki
+NOTE: Specify in the Pytesseract notebook where Pytesseract has been installed: example: pytesseract.pytesseract.tesseract_cmd = 'G:/Program Files/Tesseract-OCR/tesseract.exe'
 
 
 DESCRIPTIONS for files in the main folder:
@@ -63,18 +63,18 @@ DESCRIPTIONS for files in the main folder:
 
 
 REFERENCES:
-	https://www.pyimagesearch.com/2021/01/19/opencv-bitwise-and-or-xor-and-not/
-	https://www.pyimagesearch.com/2015/04/06/zero-parameter-automatic-canny-edge-detection-with-python-and-opencv/
-	https://www.pyimagesearch.com/2016/05/30/displaying-a-video-feed-with-opencv-and-tkinter/
-	https://www.pyimagesearch.com/2016/05/23/opencv-with-tkinter/
-	https://www.tutorialspoint.com/using-opencv-with-tkinter
-	https://www.pyimagesearch.com/2016/05/23/opencv-with-tkinter/
-	https://www.pyimagesearch.com/2016/05/30/displaying-a-video-feed-with-opencv-and-tkinter/
-	https://www.geeksforgeeks.org/python-tkinter-messagebox-widget/
-	https://www.geeksforgeeks.org/how-to-use-images-as-backgrounds-in-tkinter/
-	https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74
-    Dr. Eris Chinellato from Middlesex University - OpenCV/SciKit Learn Jupyer Notebooks 
-	StackOverflow**∞
+	- https://www.pyimagesearch.com/2021/01/19/opencv-bitwise-and-or-xor-and-not/
+	- https://www.pyimagesearch.com/2015/04/06/zero-parameter-automatic-canny-edge-detection-with-python-and-opencv/
+	- https://www.pyimagesearch.com/2016/05/30/displaying-a-video-feed-with-opencv-and-tkinter/
+	- https://www.pyimagesearch.com/2016/05/23/opencv-with-tkinter/
+	- https://www.tutorialspoint.com/using-opencv-with-tkinter
+	- https://www.pyimagesearch.com/2016/05/23/opencv-with-tkinter/
+	- https://www.pyimagesearch.com/2016/05/30/displaying-a-video-feed-with-opencv-and-tkinter/
+	- https://www.geeksforgeeks.org/python-tkinter-messagebox-widget/
+	- https://www.geeksforgeeks.org/how-to-use-images-as-backgrounds-in-tkinter/
+	- https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74
+    - Dr. Eris Chinellato from Middlesex University - OpenCV/SciKit Learn Jupyer Notebooks 
+	- StackOverflow**∞
 
 
 CHANGELOG:
